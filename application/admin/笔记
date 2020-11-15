@@ -1,0 +1,11 @@
+
+
+小程序商城数据表的设计
+lg_banner
+
+id      img_src         link_url        type        description     sort
+
+专题表
+lg_special
+
+id      spe_name        spe_img

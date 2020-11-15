@@ -1,0 +1,4012 @@
+---------------------------------------------------------------
+[ 2020-11-13T00:00:33+08:00 ] 127.0.0.1 POST 127.0.0.1/legou/public/admin/goods/add.html
+[运行时间：0.081059s] [吞吐率：12.34req/s] [内存消耗：1,971.23kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/add.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryaLAF52bADr5pZ4Mg',
+  'origin' => 'http://127.0.0.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '261463',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'cate_id' => '11',
+  'goods_name' => '贸易',
+  'shop_price' => '200',
+  'market_price' => '250',
+  'stock_num' => '10',
+  'weight' => '20',
+  'weight_unit' => 'kg',
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]类型错误: Argument 1 passed to think\db\Query::insert() must be of the type array, integer given, called in D:\phpStudy\WWW\legou\application\admin\controller\Goods.php on line 68[D:\phpStudy\WWW\legou\thinkphp\library\think\db\Query.php:2260]
+---------------------------------------------------------------
+[ 2020-11-13T00:00:44+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.028463s] [吞吐率：35.13req/s] [内存消耗：1,119.98kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/static/admin/style/font-awesome.css',
+  'sec-fetch-dest' => 'font',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T00:00:52+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/admin/goods/lst.html
+[运行时间：0.084822s] [吞吐率：11.79req/s] [内存消耗：2,127.28kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/add.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Goods->lst[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\public/../application/admin\view\goods\list.htm [ array (
+  0 => 'goodsLst',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010699s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.001687s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` LIMIT 1 [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SELECT `g`.`id`,`goods_name`,`g`.`thumb`,`stock_num`,`cate_id`,`c`.`cate_name`,`shop_price`,`market_price`,`sale_num`,`weight`,`weight_unit` FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` LIMIT 0,1 [ RunTime:0.000457s ]
+---------------------------------------------------------------
+[ 2020-11-13T00:00:52+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.060437s] [吞吐率：16.55req/s] [内存消耗：1,119.98kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/static/admin/style/font-awesome.css',
+  'sec-fetch-dest' => 'font',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T00:00:53+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/admin/goods/lst.html?page=2
+[运行时间：0.086252s] [吞吐率：11.59req/s] [内存消耗：2,127.80kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/lst.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\Goods->lst[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\public/../application/admin\view\goods\list.htm [ array (
+  0 => 'goodsLst',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010902s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.002893s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` LIMIT 1 [ RunTime:0.000537s ]
+[ sql ] [ SQL ] SELECT `g`.`id`,`goods_name`,`g`.`thumb`,`stock_num`,`cate_id`,`c`.`cate_name`,`shop_price`,`market_price`,`sale_num`,`weight`,`weight_unit` FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` LIMIT 1,1 [ RunTime:0.000749s ]
+---------------------------------------------------------------
+[ 2020-11-13T00:00:54+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.054300s] [吞吐率：18.42req/s] [内存消耗：1,119.98kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/static/admin/style/font-awesome.css',
+  'sec-fetch-dest' => 'font',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T00:00:55+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/admin/goods/add.html
+[运行时间：0.078513s] [吞吐率：12.74req/s] [内存消耗：1,998.46kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/lst.html?page=2',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\public/../application/admin\view\goods\add.htm [ array (
+  0 => 'cateRes',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011142s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_cate` [ RunTime:0.000750s ]
+[ sql ] [ SQL ] SELECT `id`,`cate_name`,`pid` FROM `lg_cate` [ RunTime:0.000330s ]
+---------------------------------------------------------------
+[ 2020-11-13T00:00:55+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.055342s] [吞吐率：18.07req/s] [内存消耗：1,119.98kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/static/admin/style/font-awesome.css',
+  'sec-fetch-dest' => 'font',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T00:01:09+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/admin/goods/add.html
+[运行时间：0.073292s] [吞吐率：13.64req/s] [内存消耗：1,997.91kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/lst.html?page=2',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\public/../application/admin\view\goods\add.htm [ array (
+  0 => 'cateRes',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010414s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_cate` [ RunTime:0.000971s ]
+[ sql ] [ SQL ] SELECT `id`,`cate_name`,`pid` FROM `lg_cate` [ RunTime:0.000338s ]
+---------------------------------------------------------------
+[ 2020-11-13T00:01:09+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.045052s] [吞吐率：22.20req/s] [内存消耗：1,119.98kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/static/admin/style/font-awesome.css',
+  'sec-fetch-dest' => 'font',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T00:01:41+08:00 ] 127.0.0.1 POST 127.0.0.1/legou/public/admin/goods/add.html
+[运行时间：0.311451s] [吞吐率：3.21req/s] [内存消耗：2,041.27kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/add.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryYyOliEQHTRvmwT9Z',
+  'origin' => 'http://127.0.0.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '261461',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'cate_id' => '11',
+  'goods_name' => '毛衣',
+  'shop_price' => '200',
+  'market_price' => '280',
+  'stock_num' => '',
+  'weight' => '20',
+  'weight_unit' => 'kg',
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001405s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.000977s ]
+[ sql ] [ SQL ] INSERT INTO `lg_goods` (`cate_id` , `goods_name` , `shop_price` , `market_price` , `stock_num` , `weight` , `weight_unit` , `thumb` , `des_img`) VALUES (11 , '毛衣' , 200 , 280 , 0 , 20 , 'kg' , '20201113/af15dd5289592427f1d5da189038f8d1.jpg' , '20201113/b5b3d6b6ebdc0ef6cedbf7284a310278.jpeg') [ RunTime:0.092548s ]
+---------------------------------------------------------------
+[ 2020-11-13T00:01:42+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/admin/goods/lst.html
+[运行时间：0.083482s] [吞吐率：11.98req/s] [内存消耗：2,126.69kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/add.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Goods->lst[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\public/../application/admin\view\goods\list.htm [ array (
+  0 => 'goodsLst',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011102s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.000836s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` LIMIT 1 [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SELECT `g`.`id`,`goods_name`,`g`.`thumb`,`stock_num`,`cate_id`,`c`.`cate_name`,`shop_price`,`market_price`,`sale_num`,`weight`,`weight_unit` FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` LIMIT 0,1 [ RunTime:0.000402s ]
+---------------------------------------------------------------
+[ 2020-11-13T00:01:42+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.060436s] [吞吐率：16.55req/s] [内存消耗：1,119.98kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/static/admin/style/font-awesome.css',
+  'sec-fetch-dest' => 'font',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T00:01:43+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/admin/goods/lst.html?page=3
+[运行时间：0.087714s] [吞吐率：11.40req/s] [内存消耗：2,127.20kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/lst.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+)
+[ info ] [ RUN ] app\admin\controller\Goods->lst[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\public/../application/admin\view\goods\list.htm [ array (
+  0 => 'goodsLst',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011081s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.000862s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` LIMIT 1 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SELECT `g`.`id`,`goods_name`,`g`.`thumb`,`stock_num`,`cate_id`,`c`.`cate_name`,`shop_price`,`market_price`,`sale_num`,`weight`,`weight_unit` FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` LIMIT 2,1 [ RunTime:0.000359s ]
+---------------------------------------------------------------
+[ 2020-11-13T00:01:43+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.059012s] [吞吐率：16.95req/s] [内存消耗：1,119.98kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/static/admin/style/font-awesome.css',
+  'sec-fetch-dest' => 'font',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T00:02:25+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/admin/goods/lst.html?page=3
+[运行时间：0.174816s] [吞吐率：5.72req/s] [内存消耗：2,127.58kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/lst.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+)
+[ info ] [ RUN ] app\admin\controller\Goods->lst[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\public/../application/admin\view\goods\list.htm [ array (
+  0 => 'goodsLst',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001882s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.001321s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` LIMIT 1 [ RunTime:0.000458s ]
+[ sql ] [ SQL ] SELECT `g`.`id`,`goods_name`,`g`.`thumb`,`stock_num`,`cate_id`,`c`.`cate_name`,`shop_price`,`market_price`,`sale_num`,`weight`,`weight_unit` FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` ORDER BY `id` DESC LIMIT 2,1 [ RunTime:0.114414s ]
+---------------------------------------------------------------
+[ 2020-11-13T00:02:25+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.031353s] [吞吐率：31.89req/s] [内存消耗：1,119.98kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/static/admin/style/font-awesome.css',
+  'sec-fetch-dest' => 'font',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T00:02:27+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/admin/goods/lst.html?page=1
+[运行时间：0.062752s] [吞吐率：15.94req/s] [内存消耗：2,127.51kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/lst.html?page=3',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Goods->lst[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\public/../application/admin\view\goods\list.htm [ array (
+  0 => 'goodsLst',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009885s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.005167s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` LIMIT 1 [ RunTime:0.000534s ]
+[ sql ] [ SQL ] SELECT `g`.`id`,`goods_name`,`g`.`thumb`,`stock_num`,`cate_id`,`c`.`cate_name`,`shop_price`,`market_price`,`sale_num`,`weight`,`weight_unit` FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` ORDER BY `id` DESC LIMIT 0,1 [ RunTime:0.000450s ]
+---------------------------------------------------------------
+[ 2020-11-13T00:02:27+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.041326s] [吞吐率：24.20req/s] [内存消耗：1,119.98kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/static/admin/style/font-awesome.css',
+  'sec-fetch-dest' => 'font',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T00:20:30+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/admin/goods/lst.html?page=1
+[运行时间：2.264588s] [吞吐率：0.44req/s] [内存消耗：2,127.57kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/lst.html?page=3',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Goods->lst[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\public/../application/admin\view\goods\list.htm [ array (
+  0 => 'goodsLst',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.096373s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.210780s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` LIMIT 1 [ RunTime:0.032027s ]
+[ sql ] [ SQL ] SELECT `g`.`id`,`goods_name`,`g`.`thumb`,`stock_num`,`cate_id`,`c`.`cate_name`,`shop_price`,`market_price`,`sale_num`,`weight`,`weight_unit` FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` ORDER BY `id` DESC LIMIT 0,1 [ RunTime:0.001633s ]
+---------------------------------------------------------------
+[ 2020-11-13T00:20:31+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.076100s] [吞吐率：13.14req/s] [内存消耗：1,119.98kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/static/admin/style/font-awesome.css',
+  'sec-fetch-dest' => 'font',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T00:20:32+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/admin/goods/add.html
+[运行时间：0.206965s] [吞吐率：4.83req/s] [内存消耗：1,997.99kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/lst.html?page=1',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\public/../application/admin\view\goods\add.htm [ array (
+  0 => 'cateRes',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011722s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_cate` [ RunTime:0.001247s ]
+[ sql ] [ SQL ] SELECT `id`,`cate_name`,`pid` FROM `lg_cate` [ RunTime:0.000286s ]
+---------------------------------------------------------------
+[ 2020-11-13T00:20:32+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.034767s] [吞吐率：28.76req/s] [内存消耗：1,119.98kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/static/admin/style/font-awesome.css',
+  'sec-fetch-dest' => 'font',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T00:24:32+08:00 ] 127.0.0.1 POST 127.0.0.1/legou/public/admin/goods/add.html
+[运行时间：1.148011s] [吞吐率：0.87req/s] [内存消耗：2,155.41kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/add.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryg0qz9bWuuh8hNA7s',
+  'origin' => 'http://127.0.0.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '836547',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'cate_id' => '13',
+  'goods_name' => '测试',
+  'shop_price' => '300',
+  'market_price' => '360',
+  'stock_num' => '10',
+  'weight' => '20',
+  'weight_unit' => 'kg',
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007178s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.235306s ]
+[ sql ] [ SQL ] INSERT INTO `lg_goods` (`cate_id` , `goods_name` , `shop_price` , `market_price` , `stock_num` , `weight` , `weight_unit` , `thumb` , `des_img`) VALUES (13 , '测试' , 300 , 360 , 10 , 20 , 'kg' , '20201113/84bb2991370069445dccbc3c1dcffb22.jpg' , '20201113/42de46f0fa52ec8661fd7530f39960ac.jpg') [ RunTime:0.056738s ]
+---------------------------------------------------------------
+[ 2020-11-13T00:27:08+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/admin/goods/add.html
+[运行时间：0.194311s] [吞吐率：5.15req/s] [内存消耗：1,997.38kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\public/../application/admin\view\goods\add.htm [ array (
+  0 => 'cateRes',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004562s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_cate` [ RunTime:0.003534s ]
+[ sql ] [ SQL ] SELECT `id`,`cate_name`,`pid` FROM `lg_cate` [ RunTime:0.141214s ]
+---------------------------------------------------------------
+[ 2020-11-13T00:27:08+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.040548s] [吞吐率：24.66req/s] [内存消耗：1,119.98kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/static/admin/style/font-awesome.css',
+  'sec-fetch-dest' => 'font',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T00:27:45+08:00 ] 127.0.0.1 POST 127.0.0.1/legou/public/admin/goods/add.html
+[运行时间：0.234340s] [吞吐率：4.27req/s] [内存消耗：2,154.41kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/add.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryT2jSTQVFHbjK2TUB',
+  'origin' => 'http://127.0.0.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '333086',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'cate_id' => '12',
+  'goods_name' => '裙子',
+  'shop_price' => '20',
+  'market_price' => '30',
+  'stock_num' => '1',
+  'weight' => '20',
+  'weight_unit' => 'g',
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010810s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.001906s ]
+[ sql ] [ SQL ] INSERT INTO `lg_goods` (`cate_id` , `goods_name` , `shop_price` , `market_price` , `stock_num` , `weight` , `weight_unit` , `thumb` , `des_img`) VALUES (12 , '裙子' , 20 , 30 , 1 , 20 , 'g' , '20201113/40ade791a699751f433e9c763d611627.jpeg' , '20201113/b74671fd3b6cf02b0a27551d4a80a1e6.jpeg') [ RunTime:0.000399s ]
+---------------------------------------------------------------
+[ 2020-11-13T00:36:25+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/admin/goods/add.html
+[运行时间：1.308414s] [吞吐率：0.76req/s] [内存消耗：1,997.98kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/lst.html?page=1',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\public/../application/admin\view\goods\add.htm [ array (
+  0 => 'cateRes',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.183078s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_cate` [ RunTime:0.042495s ]
+[ sql ] [ SQL ] SELECT `id`,`cate_name`,`pid` FROM `lg_cate` [ RunTime:0.013825s ]
+---------------------------------------------------------------
+[ 2020-11-13T00:36:27+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/admin/goods/add.html
+[运行时间：0.044701s] [吞吐率：22.37req/s] [内存消耗：1,998.10kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/add.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\public/../application/admin\view\goods\add.htm [ array (
+  0 => 'cateRes',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001475s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_cate` [ RunTime:0.001363s ]
+[ sql ] [ SQL ] SELECT `id`,`cate_name`,`pid` FROM `lg_cate` [ RunTime:0.000449s ]
+---------------------------------------------------------------
+[ 2020-11-13T00:36:28+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.174326s] [吞吐率：5.74req/s] [内存消耗：1,119.98kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/static/admin/style/font-awesome.css',
+  'sec-fetch-dest' => 'font',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T00:37:24+08:00 ] 127.0.0.1 POST 127.0.0.1/legou/public/admin/goods/add.html
+[运行时间：1.966143s] [吞吐率：0.51req/s] [内存消耗：2,240.15kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/add.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryYpTGppdUOrYcIBGe',
+  'origin' => 'http://127.0.0.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '446697',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'cate_id' => '17',
+  'goods_name' => '测试版',
+  'shop_price' => '200',
+  'market_price' => '821',
+  'stock_num' => '10',
+  'weight' => '20',
+  'weight_unit' => 'g',
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011566s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.000973s ]
+[ sql ] [ SQL ] INSERT INTO `lg_goods` (`cate_id` , `goods_name` , `shop_price` , `market_price` , `stock_num` , `weight` , `weight_unit` , `thumb` , `des_img`) VALUES (17 , '测试版' , 200 , 821 , 10 , 20 , 'g' , '20201113/f9abd067a178aa958426481ea68265a4.gif' , '20201113/0885c96854ea578543c3af6fd94997d1.jpg') [ RunTime:0.916602s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_photos` [ RunTime:0.100164s ]
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'goods_id' doesn't have a default value[D:\phpStudy\WWW\legou\thinkphp\library\think\db\Connection.php:453]
+---------------------------------------------------------------
+[ 2020-11-13T00:39:34+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.178193s] [吞吐率：5.61req/s] [内存消耗：1,119.98kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/static/admin/style/font-awesome.css',
+  'sec-fetch-dest' => 'font',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T00:39:47+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/admin/goods/add.html
+[运行时间：1.111526s] [吞吐率：0.90req/s] [内存消耗：1,998.10kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/add.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\public/../application/admin\view\goods\add.htm [ array (
+  0 => 'cateRes',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001678s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_cate` [ RunTime:0.001219s ]
+[ sql ] [ SQL ] SELECT `id`,`cate_name`,`pid` FROM `lg_cate` [ RunTime:0.000415s ]
+---------------------------------------------------------------
+[ 2020-11-13T00:39:47+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.036003s] [吞吐率：27.78req/s] [内存消耗：1,119.98kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/static/admin/style/font-awesome.css',
+  'sec-fetch-dest' => 'font',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T00:40:55+08:00 ] 127.0.0.1 POST 127.0.0.1/legou/public/admin/goods/add.html
+[运行时间：0.938628s] [吞吐率：1.07req/s] [内存消耗：2,252.80kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/add.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryrglA7fZ4HgbFFMgY',
+  'origin' => 'http://127.0.0.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '1236653',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'cate_id' => '15',
+  'goods_name' => 'adf',
+  'shop_price' => '200',
+  'market_price' => '1212',
+  'stock_num' => '10',
+  'weight' => '12',
+  'weight_unit' => 'g',
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011174s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.002057s ]
+[ sql ] [ SQL ] INSERT INTO `lg_goods` (`cate_id` , `goods_name` , `shop_price` , `market_price` , `stock_num` , `weight` , `weight_unit` , `thumb` , `des_img`) VALUES (15 , 'adf' , 200 , 1212 , 10 , 12 , 'g' , '20201113/5a99f8a0fe0dca02a82e3a18f8d9e548.jpg' , '20201113/fa4c510071b7dd3f1e01e7d846ad46e0.jpg') [ RunTime:0.000791s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_photos` [ RunTime:0.002762s ]
+[ sql ] [ SQL ] INSERT INTO `lg_photos` (`goods_id` , `img_src`) VALUES (7 , '20201113/5d4da96b923353a811d944f5885c4e68.jpg') [ RunTime:0.320911s ]
+[ sql ] [ SQL ] INSERT INTO `lg_photos` (`goods_id` , `img_src`) VALUES (7 , '20201113/e16f159fe8f0cdad75df019b0f96da07.jpg') [ RunTime:0.000476s ]
+[ sql ] [ SQL ] INSERT INTO `lg_photos` (`goods_id` , `img_src`) VALUES (7 , '20201113/c2c9f19c43d10a6048994aa60e535bb2.jpg') [ RunTime:0.000455s ]
+---------------------------------------------------------------
+[ 2020-11-13T00:41:00+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/admin/goods/lst.html
+[运行时间：0.102846s] [吞吐率：9.72req/s] [内存消耗：2,126.85kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/add.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Goods->lst[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\public/../application/admin\view\goods\list.htm [ array (
+  0 => 'goodsLst',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004414s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.001161s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` LIMIT 1 [ RunTime:0.000508s ]
+[ sql ] [ SQL ] SELECT `g`.`id`,`goods_name`,`g`.`thumb`,`stock_num`,`cate_id`,`c`.`cate_name`,`shop_price`,`market_price`,`sale_num`,`weight`,`weight_unit` FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` ORDER BY `id` DESC LIMIT 0,1 [ RunTime:0.000782s ]
+---------------------------------------------------------------
+[ 2020-11-13T00:41:00+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/admin/goods/lst.html
+[运行时间：4.020872s] [吞吐率：0.25req/s] [内存消耗：2,127.03kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/add.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Goods->lst[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\public/../application/admin\view\goods\list.htm [ array (
+  0 => 'goodsLst',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011428s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.001022s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` LIMIT 1 [ RunTime:0.000633s ]
+[ sql ] [ SQL ] SELECT `g`.`id`,`goods_name`,`g`.`thumb`,`stock_num`,`cate_id`,`c`.`cate_name`,`shop_price`,`market_price`,`sale_num`,`weight`,`weight_unit` FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` ORDER BY `id` DESC LIMIT 0,1 [ RunTime:0.001116s ]
+---------------------------------------------------------------
+[ 2020-11-13T00:41:01+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.040846s] [吞吐率：24.48req/s] [内存消耗：1,119.98kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/static/admin/style/font-awesome.css',
+  'sec-fetch-dest' => 'font',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T00:41:03+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/admin/goods/lst.html?page=6
+[运行时间：0.681657s] [吞吐率：1.47req/s] [内存消耗：2,127.56kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/lst.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '6',
+)
+[ info ] [ RUN ] app\admin\controller\Goods->lst[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\public/../application/admin\view\goods\list.htm [ array (
+  0 => 'goodsLst',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010813s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.169272s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` LIMIT 1 [ RunTime:0.000472s ]
+[ sql ] [ SQL ] SELECT `g`.`id`,`goods_name`,`g`.`thumb`,`stock_num`,`cate_id`,`c`.`cate_name`,`shop_price`,`market_price`,`sale_num`,`weight`,`weight_unit` FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` ORDER BY `id` DESC LIMIT 5,1 [ RunTime:0.455259s ]
+---------------------------------------------------------------
+[ 2020-11-13T00:41:03+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.031486s] [吞吐率：31.76req/s] [内存消耗：1,119.98kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/static/admin/style/font-awesome.css',
+  'sec-fetch-dest' => 'font',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T00:41:05+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/admin/goods/lst.html?page=1
+[运行时间：0.113496s] [吞吐率：8.81req/s] [内存消耗：2,127.55kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/lst.html?page=6',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Goods->lst[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\public/../application/admin\view\goods\list.htm [ array (
+  0 => 'goodsLst',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010903s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.057958s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` LIMIT 1 [ RunTime:0.000767s ]
+[ sql ] [ SQL ] SELECT `g`.`id`,`goods_name`,`g`.`thumb`,`stock_num`,`cate_id`,`c`.`cate_name`,`shop_price`,`market_price`,`sale_num`,`weight`,`weight_unit` FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` ORDER BY `id` DESC LIMIT 0,1 [ RunTime:0.000492s ]
+---------------------------------------------------------------
+[ 2020-11-13T00:41:05+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.041831s] [吞吐率：23.91req/s] [内存消耗：1,119.98kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/static/admin/style/font-awesome.css',
+  'sec-fetch-dest' => 'font',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T00:41:27+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/admin/goods/lst.html?page=1
+[运行时间：0.042074s] [吞吐率：23.77req/s] [内存消耗：2,127.62kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/lst.html?page=6',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Goods->lst[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\public/../application/admin\view\goods\list.htm [ array (
+  0 => 'goodsLst',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011958s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.001074s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` LIMIT 1 [ RunTime:0.000478s ]
+[ sql ] [ SQL ] SELECT `g`.`id`,`goods_name`,`g`.`thumb`,`stock_num`,`cate_id`,`c`.`cate_name`,`shop_price`,`market_price`,`sale_num`,`weight`,`weight_unit` FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` ORDER BY `id` DESC LIMIT 0,1 [ RunTime:0.000580s ]
+---------------------------------------------------------------
+[ 2020-11-13T00:41:27+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.028942s] [吞吐率：34.55req/s] [内存消耗：1,119.98kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/static/admin/style/font-awesome.css',
+  'sec-fetch-dest' => 'font',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T00:41:51+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/admin/goods/lst.html?page=1
+[运行时间：0.044330s] [吞吐率：22.56req/s] [内存消耗：2,148.20kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/lst.html?page=6',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Goods->lst[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\public/../application/admin\view\goods\list.htm [ array (
+  0 => 'goodsLst',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010859s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.001033s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` LIMIT 1 [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SELECT `g`.`id`,`goods_name`,`g`.`thumb`,`stock_num`,`cate_id`,`c`.`cate_name`,`shop_price`,`market_price`,`sale_num`,`weight`,`weight_unit` FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000639s ]
+---------------------------------------------------------------
+[ 2020-11-13T00:41:51+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.047763s] [吞吐率：20.94req/s] [内存消耗：1,119.98kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/static/admin/style/font-awesome.css',
+  'sec-fetch-dest' => 'font',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T00:42:05+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/admin/goods/edit/id/7.html
+[运行时间：0.146686s] [吞吐率：6.82req/s] [内存消耗：2,227.53kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/lst.html?page=1',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '7',
+)
+[ info ] [ RUN ] app\admin\controller\Goods->edit[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\public/../application/admin\view\goods\edit.htm [ array (
+  0 => 'goodsEdit',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001625s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.001205s ]
+[ sql ] [ SQL ] SELECT * FROM `lg_goods` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.014510s ]
+[ error ] [8]未定义变量: bannerEdit[D:\phpStudy\WWW\legou\runtime\temp\95b6ab2d65bb4b10e2ab83e7517777fb.php:239]
+---------------------------------------------------------------
+[ 2020-11-13T00:42:07+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.031663s] [吞吐率：31.58req/s] [内存消耗：1,119.98kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=V1BVXVs; password=BwYLAABT',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/static/admin/style/font-awesome.css',
+  'sec-fetch-dest' => 'font',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T16:32:47+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/
+[运行时间：0.481606s] [吞吐率：2.08req/s] [内存消耗：1,085.52kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\legou\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T16:32:50+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/admin
+[运行时间：0.188793s] [吞吐率：5.30req/s] [内存消耗：1,316.23kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpStudy\WWW\legou\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\public/../application/admin\view\index\index.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T16:32:50+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.078074s] [吞吐率：12.81req/s] [内存消耗：1,119.66kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/static/admin/style/font-awesome.css',
+  'sec-fetch-dest' => 'font',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T16:32:53+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/admin/goods/lst.html
+[运行时间：0.626630s] [吞吐率：1.60req/s] [内存消耗：2,147.01kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Goods->lst[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\public/../application/admin\view\goods\list.htm [ array (
+  0 => 'goodsLst',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.033972s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.065296s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` LIMIT 1 [ RunTime:0.049525s ]
+[ sql ] [ SQL ] SELECT `g`.`id`,`goods_name`,`g`.`thumb`,`stock_num`,`cate_id`,`c`.`cate_name`,`shop_price`,`market_price`,`sale_num`,`weight`,`weight_unit` FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000988s ]
+---------------------------------------------------------------
+[ 2020-11-13T16:32:53+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.029540s] [吞吐率：33.85req/s] [内存消耗：1,119.66kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/static/admin/style/font-awesome.css',
+  'sec-fetch-dest' => 'font',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T17:03:02+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/admin/goods/lst.html
+[运行时间：0.140836s] [吞吐率：7.10req/s] [内存消耗：2,147.32kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Goods->lst[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\public/../application/admin\view\goods\list.htm [ array (
+  0 => 'goodsLst',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.103063s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.001760s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` LIMIT 1 [ RunTime:0.000745s ]
+[ sql ] [ SQL ] SELECT `g`.`id`,`goods_name`,`g`.`thumb`,`stock_num`,`cate_id`,`c`.`cate_name`,`shop_price`,`market_price`,`sale_num`,`weight`,`weight_unit` FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000511s ]
+---------------------------------------------------------------
+[ 2020-11-13T17:03:02+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.017356s] [吞吐率：57.62req/s] [内存消耗：1,119.66kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/static/admin/style/font-awesome.css',
+  'sec-fetch-dest' => 'font',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T17:05:49+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/admin/goods/add.html
+[运行时间：0.110129s] [吞吐率：9.08req/s] [内存消耗：1,997.46kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/lst.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\public/../application/admin\view\goods\add.htm [ array (
+  0 => 'cateRes',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001576s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_cate` [ RunTime:0.002521s ]
+[ sql ] [ SQL ] SELECT `id`,`cate_name`,`pid` FROM `lg_cate` [ RunTime:0.000558s ]
+---------------------------------------------------------------
+[ 2020-11-13T17:05:49+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.073994s] [吞吐率：13.51req/s] [内存消耗：1,119.66kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/static/admin/style/font-awesome.css',
+  'sec-fetch-dest' => 'font',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T17:06:15+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/admin/goods/add.html
+[运行时间：0.070064s] [吞吐率：14.27req/s] [内存消耗：1,998.02kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/lst.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\public/../application/admin\view\goods\add.htm [ array (
+  0 => 'cateRes',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002576s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_cate` [ RunTime:0.002706s ]
+[ sql ] [ SQL ] SELECT `id`,`cate_name`,`pid` FROM `lg_cate` [ RunTime:0.000563s ]
+---------------------------------------------------------------
+[ 2020-11-13T17:06:16+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.048106s] [吞吐率：20.79req/s] [内存消耗：1,119.66kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/static/admin/style/font-awesome.css',
+  'sec-fetch-dest' => 'font',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T17:07:12+08:00 ] 127.0.0.1 POST 127.0.0.1/legou/public/admin/goods/add.html
+[运行时间：0.303752s] [吞吐率：3.29req/s] [内存消耗：2,251.81kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/add.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary3vbWoOFrIh6JVUrd',
+  'origin' => 'http://127.0.0.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '24655',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'cate_id' => '16',
+  'goods_name' => 'ceshi ',
+  'shop_price' => '121',
+  'market_price' => '11',
+  'stock_num' => '12',
+  'weight' => '11',
+  'weight_unit' => 'g',
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001692s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.006688s ]
+[ sql ] [ SQL ] INSERT INTO `lg_goods` (`cate_id` , `goods_name` , `shop_price` , `market_price` , `stock_num` , `weight` , `weight_unit` , `thumb` , `des_img`) VALUES (16 , 'ceshi ' , 121 , 11 , 12 , 11 , 'g' , '20201113/d1678676fe5aae1b1f24e99208874b43.jpg' , '20201113/c18a734abce76eff344c8abab0cd7cc2.jpg') [ RunTime:0.197250s ]
+---------------------------------------------------------------
+[ 2020-11-13T17:07:13+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/admin/goods/lst.html
+[运行时间：0.057497s] [吞吐率：17.39req/s] [内存消耗：2,147.73kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/add.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Goods->lst[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\public/../application/admin\view\goods\list.htm [ array (
+  0 => 'goodsLst',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001434s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.002064s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` LIMIT 1 [ RunTime:0.000878s ]
+[ sql ] [ SQL ] SELECT `g`.`id`,`goods_name`,`g`.`thumb`,`stock_num`,`cate_id`,`c`.`cate_name`,`shop_price`,`market_price`,`sale_num`,`weight`,`weight_unit` FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000555s ]
+---------------------------------------------------------------
+[ 2020-11-13T17:07:13+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.038149s] [吞吐率：26.21req/s] [内存消耗：1,119.66kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/static/admin/style/font-awesome.css',
+  'sec-fetch-dest' => 'font',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T17:36:58+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/admin/goods/edit/id/7.html
+[运行时间：0.292075s] [吞吐率：3.42req/s] [内存消耗：2,098.03kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/lst.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '7',
+)
+[ info ] [ RUN ] app\admin\controller\Goods->edit[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\public/../application/admin\view\goods\edit.htm [ array (
+  0 => 'goodsEdit',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002496s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.002233s ]
+[ sql ] [ SQL ] SELECT * FROM `lg_goods` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.113110s ]
+[ error ] [8]未定义变量: bannerEdit[D:\phpStudy\WWW\legou\runtime\temp\95b6ab2d65bb4b10e2ab83e7517777fb.php:239]
+---------------------------------------------------------------
+[ 2020-11-13T17:37:15+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/style/jquery.slimscroll.min.js.map
+[运行时间：0.027308s] [吞吐率：36.62req/s] [内存消耗：1,118.64kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'none',
+  'cache-control' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T17:37:55+08:00 ] 127.0.0.1 POST 127.0.0.1/legou/public/admin/goods/del.html
+[运行时间：0.054452s] [吞吐率：18.36req/s] [内存消耗：2,022.88kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'del',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/lst.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'origin' => 'http://127.0.0.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '4',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '7',
+)
+[ info ] [ RUN ] app\admin\controller\Goods->del[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010192s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.001021s ]
+[ sql ] [ SQL ] SELECT `des_img`,`thumb` FROM `lg_goods` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000352s ]
+[ error ] [8]Use of undefined constant UPLOADS - assumed 'UPLOADS'[D:\phpStudy\WWW\legou\application\admin\controller\Goods.php:147]
+---------------------------------------------------------------
+[ 2020-11-13T17:40:08+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/admin/goods/lst.html
+[运行时间：0.172475s] [吞吐率：5.80req/s] [内存消耗：2,153.01kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/add.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Goods->lst[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\public/../application/admin\view\goods\list.htm [ array (
+  0 => 'goodsLst',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010650s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.000877s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` LIMIT 1 [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SELECT `g`.`id`,`goods_name`,`g`.`thumb`,`stock_num`,`cate_id`,`c`.`cate_name`,`shop_price`,`market_price`,`sale_num`,`weight`,`weight_unit` FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000515s ]
+---------------------------------------------------------------
+[ 2020-11-13T17:40:08+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.027339s] [吞吐率：36.58req/s] [内存消耗：1,119.83kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/static/admin/style/font-awesome.css',
+  'sec-fetch-dest' => 'font',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T17:40:08+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/style/jquery.slimscroll.min.js.map
+[运行时间：0.038784s] [吞吐率：25.78req/s] [内存消耗：1,118.45kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'none',
+  'cache-control' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T17:40:22+08:00 ] 127.0.0.1 POST 127.0.0.1/legou/public/admin/goods/del.html
+[运行时间：0.268727s] [吞吐率：3.72req/s] [内存消耗：2,013.05kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'del',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/lst.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'origin' => 'http://127.0.0.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '4',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '7',
+)
+[ info ] [ RUN ] app\admin\controller\Goods->del[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011618s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.000892s ]
+[ sql ] [ SQL ] SELECT `des_img`,`thumb` FROM `lg_goods` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_photos` [ RunTime:0.000712s ]
+[ sql ] [ SQL ] SELECT * FROM `lg_photos` WHERE  `goods_id` = 7 [ RunTime:0.096132s ]
+[ sql ] [ SQL ] DELETE FROM `lg_photos`    WHERE  `goods_id` = 7 [ RunTime:0.028276s ]
+[ sql ] [ SQL ] DELETE FROM `lg_goods`    WHERE  `id` = 7 [ RunTime:0.020357s ]
+---------------------------------------------------------------
+[ 2020-11-13T17:41:55+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/admin/goods/lst.html
+[运行时间：0.062707s] [吞吐率：15.95req/s] [内存消耗：2,152.48kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/add.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Goods->lst[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\public/../application/admin\view\goods\list.htm [ array (
+  0 => 'goodsLst',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010120s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.001916s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` LIMIT 1 [ RunTime:0.000590s ]
+[ sql ] [ SQL ] SELECT `g`.`id`,`goods_name`,`g`.`thumb`,`stock_num`,`cate_id`,`c`.`cate_name`,`shop_price`,`market_price`,`sale_num`,`weight`,`weight_unit` FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000768s ]
+---------------------------------------------------------------
+[ 2020-11-13T17:41:55+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.025853s] [吞吐率：38.68req/s] [内存消耗：1,120.02kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/static/admin/style/font-awesome.css',
+  'sec-fetch-dest' => 'font',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T17:41:55+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/style/jquery.slimscroll.min.js.map
+[运行时间：0.048549s] [吞吐率：20.60req/s] [内存消耗：1,118.64kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'none',
+  'cache-control' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T17:41:56+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/admin/goods/add.html
+[运行时间：0.159979s] [吞吐率：6.25req/s] [内存消耗：2,002.91kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/lst.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\public/../application/admin\view\goods\add.htm [ array (
+  0 => 'cateRes',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001165s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_cate` [ RunTime:0.001201s ]
+[ sql ] [ SQL ] SELECT `id`,`cate_name`,`pid` FROM `lg_cate` [ RunTime:0.000519s ]
+---------------------------------------------------------------
+[ 2020-11-13T17:41:56+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.034115s] [吞吐率：29.31req/s] [内存消耗：1,120.02kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/static/admin/style/font-awesome.css',
+  'sec-fetch-dest' => 'font',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T17:41:57+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/style/jquery.slimscroll.min.js.map
+[运行时间：0.052720s] [吞吐率：18.97req/s] [内存消耗：1,118.64kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'none',
+  'cache-control' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T17:42:31+08:00 ] 127.0.0.1 POST 127.0.0.1/legou/public/admin/goods/add.html
+[运行时间：0.172693s] [吞吐率：5.79req/s] [内存消耗：2,257.64kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/add.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarypycCbyLtmsA1oSSa',
+  'origin' => 'http://127.0.0.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '74961',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'cate_id' => '16',
+  'goods_name' => '测试商品1',
+  'shop_price' => '300',
+  'market_price' => '280',
+  'stock_num' => '100',
+  'weight' => '20',
+  'weight_unit' => 'kg',
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000933s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.000851s ]
+[ sql ] [ SQL ] INSERT INTO `lg_goods` (`cate_id` , `goods_name` , `shop_price` , `market_price` , `stock_num` , `weight` , `weight_unit` , `thumb` , `des_img`) VALUES (16 , '测试商品1' , 300 , 280 , 100 , 20 , 'kg' , '20201113/08abd38e2ad218835e225e435a6abee2.jpg' , '20201113/36889f7cfa6ee89d8897e7f740778010.jpg') [ RunTime:0.000425s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_photos` [ RunTime:0.000772s ]
+[ sql ] [ SQL ] INSERT INTO `lg_photos` (`goods_id` , `img_src`) VALUES (9 , '20201113/cbe63722477b6e7537bef868fcc3682d.jpg') [ RunTime:0.000348s ]
+[ sql ] [ SQL ] INSERT INTO `lg_photos` (`goods_id` , `img_src`) VALUES (9 , '20201113/0edf5a6e6d4d77fd7624b14823aee572.jpg') [ RunTime:0.000451s ]
+[ sql ] [ SQL ] INSERT INTO `lg_photos` (`goods_id` , `img_src`) VALUES (9 , '20201113/c899a1231ee6295d52d135be68479424.jpg') [ RunTime:0.000508s ]
+---------------------------------------------------------------
+[ 2020-11-13T17:42:32+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/admin/goods/lst.html
+[运行时间：0.049460s] [吞吐率：20.22req/s] [内存消耗：2,153.19kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/add.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Goods->lst[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\public/../application/admin\view\goods\list.htm [ array (
+  0 => 'goodsLst',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011915s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.001049s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` LIMIT 1 [ RunTime:0.000539s ]
+[ sql ] [ SQL ] SELECT `g`.`id`,`goods_name`,`g`.`thumb`,`stock_num`,`cate_id`,`c`.`cate_name`,`shop_price`,`market_price`,`sale_num`,`weight`,`weight_unit` FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000526s ]
+---------------------------------------------------------------
+[ 2020-11-13T17:42:33+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.019646s] [吞吐率：50.90req/s] [内存消耗：1,120.02kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/static/admin/style/font-awesome.css',
+  'sec-fetch-dest' => 'font',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T17:42:33+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/style/jquery.slimscroll.min.js.map
+[运行时间：0.042555s] [吞吐率：23.50req/s] [内存消耗：1,118.64kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'none',
+  'cache-control' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T17:42:36+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/admin/goods/edit/id/9.html
+[运行时间：0.049038s] [吞吐率：20.39req/s] [内存消耗：2,098.44kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/lst.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '9',
+)
+[ info ] [ RUN ] app\admin\controller\Goods->edit[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\public/../application/admin\view\goods\edit.htm [ array (
+  0 => 'goodsEdit',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010138s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.001643s ]
+[ sql ] [ SQL ] SELECT * FROM `lg_goods` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000544s ]
+[ error ] [8]未定义变量: bannerEdit[D:\phpStudy\WWW\legou\runtime\temp\95b6ab2d65bb4b10e2ab83e7517777fb.php:239]
+---------------------------------------------------------------
+[ 2020-11-13T17:42:37+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/admin/goods/lst.html
+[运行时间：0.048362s] [吞吐率：20.68req/s] [内存消耗：2,153.01kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/add.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Goods->lst[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\public/../application/admin\view\goods\list.htm [ array (
+  0 => 'goodsLst',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012310s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.000915s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` LIMIT 1 [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SELECT `g`.`id`,`goods_name`,`g`.`thumb`,`stock_num`,`cate_id`,`c`.`cate_name`,`shop_price`,`market_price`,`sale_num`,`weight`,`weight_unit` FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000570s ]
+---------------------------------------------------------------
+[ 2020-11-13T17:42:38+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.021702s] [吞吐率：46.08req/s] [内存消耗：1,120.02kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/static/admin/style/font-awesome.css',
+  'sec-fetch-dest' => 'font',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T17:42:38+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/style/jquery.slimscroll.min.js.map
+[运行时间：0.050003s] [吞吐率：20.00req/s] [内存消耗：1,118.64kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'none',
+  'cache-control' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T17:42:58+08:00 ] 127.0.0.1 POST 127.0.0.1/legou/public/admin/goods/del.html
+[运行时间：0.057336s] [吞吐率：17.44req/s] [内存消耗：2,013.23kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'del',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/lst.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'origin' => 'http://127.0.0.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '4',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '9',
+)
+[ info ] [ RUN ] app\admin\controller\Goods->del[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010502s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.000813s ]
+[ sql ] [ SQL ] SELECT `des_img`,`thumb` FROM `lg_goods` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000458s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_photos` [ RunTime:0.000640s ]
+[ sql ] [ SQL ] SELECT * FROM `lg_photos` WHERE  `goods_id` = 9 [ RunTime:0.000398s ]
+[ sql ] [ SQL ] DELETE FROM `lg_photos`    WHERE  `goods_id` = 9 [ RunTime:0.000395s ]
+[ sql ] [ SQL ] DELETE FROM `lg_goods`    WHERE  `id` = 9 [ RunTime:0.000446s ]
+---------------------------------------------------------------
+[ 2020-11-13T17:44:03+08:00 ] 127.0.0.1 POST 127.0.0.1/legou/public/admin/goods/del.html
+[运行时间：0.149518s] [吞吐率：6.69req/s] [内存消耗：2,012.55kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'del',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/lst.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'origin' => 'http://127.0.0.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '4',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ RUN ] app\admin\controller\Goods->del[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009877s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.000808s ]
+[ sql ] [ SQL ] SELECT `des_img`,`thumb` FROM `lg_goods` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_photos` [ RunTime:0.000742s ]
+[ sql ] [ SQL ] SELECT * FROM `lg_photos` WHERE  `goods_id` = 3 [ RunTime:0.000258s ]
+[ sql ] [ SQL ] DELETE FROM `lg_goods`    WHERE  `id` = 3 [ RunTime:0.000488s ]
+---------------------------------------------------------------
+[ 2020-11-13T17:44:13+08:00 ] 127.0.0.1 POST 127.0.0.1/legou/public/admin/goods/del.html
+[运行时间：0.053138s] [吞吐率：18.82req/s] [内存消耗：2,012.55kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'del',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/lst.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'origin' => 'http://127.0.0.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '4',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4',
+)
+[ info ] [ RUN ] app\admin\controller\Goods->del[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009770s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.001024s ]
+[ sql ] [ SQL ] SELECT `des_img`,`thumb` FROM `lg_goods` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000998s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_photos` [ RunTime:0.000915s ]
+[ sql ] [ SQL ] SELECT * FROM `lg_photos` WHERE  `goods_id` = 4 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] DELETE FROM `lg_goods`    WHERE  `id` = 4 [ RunTime:0.000384s ]
+---------------------------------------------------------------
+[ 2020-11-13T17:44:17+08:00 ] 127.0.0.1 POST 127.0.0.1/legou/public/admin/goods/del.html
+[运行时间：0.075428s] [吞吐率：13.26req/s] [内存消耗：2,012.55kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'del',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/lst.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'origin' => 'http://127.0.0.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '4',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ RUN ] app\admin\controller\Goods->del[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010366s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.000973s ]
+[ sql ] [ SQL ] SELECT `des_img`,`thumb` FROM `lg_goods` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_photos` [ RunTime:0.001004s ]
+[ sql ] [ SQL ] SELECT * FROM `lg_photos` WHERE  `goods_id` = 5 [ RunTime:0.000351s ]
+[ sql ] [ SQL ] DELETE FROM `lg_goods`    WHERE  `id` = 5 [ RunTime:0.000378s ]
+---------------------------------------------------------------
+[ 2020-11-13T17:44:35+08:00 ] 127.0.0.1 POST 127.0.0.1/legou/public/admin/goods/del.html
+[运行时间：0.052772s] [吞吐率：18.95req/s] [内存消耗：2,012.55kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'del',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/lst.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'origin' => 'http://127.0.0.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '4',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '8',
+)
+[ info ] [ RUN ] app\admin\controller\Goods->del[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009750s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.000884s ]
+[ sql ] [ SQL ] SELECT `des_img`,`thumb` FROM `lg_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000357s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_photos` [ RunTime:0.000739s ]
+[ sql ] [ SQL ] SELECT * FROM `lg_photos` WHERE  `goods_id` = 8 [ RunTime:0.000333s ]
+[ sql ] [ SQL ] DELETE FROM `lg_goods`    WHERE  `id` = 8 [ RunTime:0.000484s ]
+---------------------------------------------------------------
+[ 2020-11-13T17:44:39+08:00 ] 127.0.0.1 POST 127.0.0.1/legou/public/admin/goods/del.html
+[运行时间：0.077490s] [吞吐率：12.90req/s] [内存消耗：2,012.55kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'del',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/lst.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'origin' => 'http://127.0.0.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '4',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\Goods->del[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010387s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.001685s ]
+[ sql ] [ SQL ] SELECT `des_img`,`thumb` FROM `lg_goods` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000463s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_photos` [ RunTime:0.000975s ]
+[ sql ] [ SQL ] SELECT * FROM `lg_photos` WHERE  `goods_id` = 2 [ RunTime:0.000407s ]
+[ sql ] [ SQL ] DELETE FROM `lg_goods`    WHERE  `id` = 2 [ RunTime:0.000379s ]
+---------------------------------------------------------------
+[ 2020-11-13T17:44:44+08:00 ] 127.0.0.1 POST 127.0.0.1/legou/public/admin/goods/del.html
+[运行时间：0.050431s] [吞吐率：19.83req/s] [内存消耗：2,012.55kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'del',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/lst.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'origin' => 'http://127.0.0.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '4',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Goods->del[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010135s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.000848s ]
+[ sql ] [ SQL ] SELECT `des_img`,`thumb` FROM `lg_goods` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_photos` [ RunTime:0.000632s ]
+[ sql ] [ SQL ] SELECT * FROM `lg_photos` WHERE  `goods_id` = 1 [ RunTime:0.000395s ]
+[ sql ] [ SQL ] DELETE FROM `lg_goods`    WHERE  `id` = 1 [ RunTime:0.000419s ]
+---------------------------------------------------------------
+[ 2020-11-13T17:45:01+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/admin/goods/lst.html
+[运行时间：0.057088s] [吞吐率：17.52req/s] [内存消耗：2,130.70kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/add.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Goods->lst[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\public/../application/admin\view\goods\list.htm [ array (
+  0 => 'goodsLst',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001413s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.001244s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` LIMIT 1 [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SELECT `g`.`id`,`goods_name`,`g`.`thumb`,`stock_num`,`cate_id`,`c`.`cate_name`,`shop_price`,`market_price`,`sale_num`,`weight`,`weight_unit` FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000400s ]
+---------------------------------------------------------------
+[ 2020-11-13T17:45:01+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.021974s] [吞吐率：45.51req/s] [内存消耗：1,120.02kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/static/admin/style/font-awesome.css',
+  'sec-fetch-dest' => 'font',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T17:45:01+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/style/jquery.slimscroll.min.js.map
+[运行时间：0.069497s] [吞吐率：14.39req/s] [内存消耗：1,118.64kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'none',
+  'cache-control' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T18:06:25+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/admin/goods/lst.html
+[运行时间：0.053555s] [吞吐率：18.67req/s] [内存消耗：2,130.95kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/add.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Goods->lst[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\public/../application/admin\view\goods\list.htm [ array (
+  0 => 'goodsLst',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002533s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.001426s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` LIMIT 1 [ RunTime:0.000544s ]
+[ sql ] [ SQL ] SELECT `g`.`id`,`goods_name`,`g`.`thumb`,`stock_num`,`cate_id`,`c`.`cate_name`,`shop_price`,`market_price`,`sale_num`,`weight`,`weight_unit` FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000582s ]
+---------------------------------------------------------------
+[ 2020-11-13T18:06:25+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.023262s] [吞吐率：42.99req/s] [内存消耗：1,120.02kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/static/admin/style/font-awesome.css',
+  'sec-fetch-dest' => 'font',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T18:06:25+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/style/jquery.slimscroll.min.js.map
+[运行时间：0.030039s] [吞吐率：33.29req/s] [内存消耗：1,118.64kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'none',
+  'cache-control' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T18:06:26+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/admin/goods/add.html
+[运行时间：0.050082s] [吞吐率：19.97req/s] [内存消耗：2,003.17kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/lst.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\public/../application/admin\view\goods\add.htm [ array (
+  0 => 'cateRes',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011817s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_cate` [ RunTime:0.001193s ]
+[ sql ] [ SQL ] SELECT `id`,`cate_name`,`pid` FROM `lg_cate` [ RunTime:0.000461s ]
+---------------------------------------------------------------
+[ 2020-11-13T18:06:26+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.021028s] [吞吐率：47.56req/s] [内存消耗：1,120.02kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/static/admin/style/font-awesome.css',
+  'sec-fetch-dest' => 'font',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T18:06:26+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/style/jquery.slimscroll.min.js.map
+[运行时间：0.042157s] [吞吐率：23.72req/s] [内存消耗：1,118.64kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'none',
+  'cache-control' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T18:07:17+08:00 ] 127.0.0.1 POST 127.0.0.1/legou/public/admin/goods/add.html
+[运行时间：0.146271s] [吞吐率：6.84req/s] [内存消耗：2,258.71kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/add.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryACTsd3XjJkDmc5gy',
+  'origin' => 'http://127.0.0.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '51559',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'cate_id' => '16',
+  'goods_name' => '男士',
+  'shop_price' => '200',
+  'market_price' => '100',
+  'stock_num' => '20',
+  'weight' => '20',
+  'weight_unit' => 'g',
+)
+[ info ] [ RUN ] app\admin\controller\Goods->add[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011551s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.000737s ]
+[ sql ] [ SQL ] INSERT INTO `lg_goods` (`cate_id` , `goods_name` , `shop_price` , `market_price` , `stock_num` , `weight` , `weight_unit` , `thumb` , `des_img`) VALUES (16 , '男士' , 200 , 100 , 20 , 20 , 'g' , '20201113/d0c5859cd245d54cec984f0a4d06a50f.jpg' , '20201113/76532e822dd76f52ea28fc08a4d4741e.jpg') [ RunTime:0.000427s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_photos` [ RunTime:0.001011s ]
+[ sql ] [ SQL ] INSERT INTO `lg_photos` (`goods_id` , `img_src`) VALUES (10 , '20201113/65182e837c27eccd524ac823af1299e2.jpg') [ RunTime:0.000440s ]
+[ sql ] [ SQL ] INSERT INTO `lg_photos` (`goods_id` , `img_src`) VALUES (10 , '20201113/ff872a9a4170b776b9115f93bf9890ec.jpg') [ RunTime:0.000419s ]
+[ sql ] [ SQL ] INSERT INTO `lg_photos` (`goods_id` , `img_src`) VALUES (10 , '20201113/151e74a001bd71d2c72741f7c0a96d89.jpg') [ RunTime:0.000349s ]
+[ sql ] [ SQL ] INSERT INTO `lg_photos` (`goods_id` , `img_src`) VALUES (10 , '20201113/c6f9970ca1e9e580eb82877248a60dac.jpg') [ RunTime:0.000559s ]
+---------------------------------------------------------------
+[ 2020-11-13T18:07:17+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/admin/goods/lst.html
+[运行时间：0.041701s] [吞吐率：23.98req/s] [内存消耗：2,132.16kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/add.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Goods->lst[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\public/../application/admin\view\goods\list.htm [ array (
+  0 => 'goodsLst',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010296s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.000817s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` LIMIT 1 [ RunTime:0.000367s ]
+[ sql ] [ SQL ] SELECT `g`.`id`,`goods_name`,`g`.`thumb`,`stock_num`,`cate_id`,`c`.`cate_name`,`shop_price`,`market_price`,`sale_num`,`weight`,`weight_unit` FROM `lg_goods` `g` INNER JOIN `lg_cate` `c` ON `g`.`cate_id`=`c`.`id` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000407s ]
+---------------------------------------------------------------
+[ 2020-11-13T18:07:18+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.015955s] [吞吐率：62.68req/s] [内存消耗：1,120.02kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/static/admin/style/font-awesome.css',
+  'sec-fetch-dest' => 'font',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T18:07:18+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/style/jquery.slimscroll.min.js.map
+[运行时间：0.039488s] [吞吐率：25.32req/s] [内存消耗：1,118.64kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'none',
+  'cache-control' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T18:07:19+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/admin/goods/edit/id/10.html
+[运行时间：0.109354s] [吞吐率：9.14req/s] [内存消耗：2,214.26kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/lst.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '10',
+)
+[ info ] [ RUN ] app\admin\controller\Goods->edit[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\public/../application/admin\view\goods\edit.htm [ array (
+  0 => 'cateRes',
+  1 => 'goodsEdit',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010284s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_cate` [ RunTime:0.001283s ]
+[ sql ] [ SQL ] SELECT `id`,`cate_name`,`pid` FROM `lg_cate` [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SELECT * FROM `lg_goods` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000424s ]
+---------------------------------------------------------------
+[ 2020-11-13T18:07:20+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.023067s] [吞吐率：43.35req/s] [内存消耗：1,120.02kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/static/admin/style/font-awesome.css',
+  'sec-fetch-dest' => 'font',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T18:07:20+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/style/jquery.slimscroll.min.js.map
+[运行时间：0.041303s] [吞吐率：24.21req/s] [内存消耗：1,118.64kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'none',
+  'cache-control' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T18:10:53+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/admin/goods/edit/id/10.html
+[运行时间：0.060121s] [吞吐率：16.63req/s] [内存消耗：2,213.38kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/admin/goods/lst.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '10',
+)
+[ info ] [ RUN ] app\admin\controller\Goods->edit[ D:\phpStudy\WWW\legou\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\legou\public/../application/admin\view\goods\edit.htm [ array (
+  0 => 'cateRes',
+  1 => 'goodsEdit',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011019s ] mysql:host=127.0.0.1;port=3306;dbname=legou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_cate` [ RunTime:0.001199s ]
+[ sql ] [ SQL ] SELECT `id`,`cate_name`,`pid` FROM `lg_cate` [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lg_goods` [ RunTime:0.000661s ]
+[ sql ] [ SQL ] SELECT * FROM `lg_goods` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000474s ]
+---------------------------------------------------------------
+[ 2020-11-13T18:10:53+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.017945s] [吞吐率：55.73req/s] [内存消耗：1,120.02kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/legou/public/static/admin/style/font-awesome.css',
+  'sec-fetch-dest' => 'font',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T18:10:53+08:00 ] 127.0.0.1 GET 127.0.0.1/legou/public/static/admin/style/jquery.slimscroll.min.js.map
+[运行时间：0.035358s] [吞吐率：28.28req/s] [内存消耗：1,118.64kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\legou\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'none',
+  'cache-control' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
