@@ -6,26 +6,6 @@ use think\Controller;
 
 class Cate extends Controller
 {
-//    获取顶级分类接口
-    public function getTopCate()
-    {
-        $topCateRes = db('cate')->field('id, cate_name')->where('pid',0)->order('sort DESC')->select();
-        return json($topCateRes);
-    }
-
-//    获取当前栏目信息
-    public function getCateInfo($id)
-    {
-        $cateInfo = model('cate')->field('id, cate_name, thumb')->find($id);
-        return json($cateInfo);
-    }
-
-//    获取二级栏目
-    public function getSonCate($pid)
-    {
-        $sonCateRes = model('cate')->field('id, cate_name, thumb')->where('pid', $pid)->order('sort DESC')->select();
-        return json($sonCateRes);
-    }
 
     public function lst()
     {
@@ -131,22 +111,36 @@ class Cate extends Controller
     {
         if (request()->isAjax()) {
             $id = input('id');
-//            获取当前栏目和子栏目的id
-            $cateDel = model('cate')->getChildren($id);
-            $cateDel[] = intval($id);
-//            删除这些栏目下的商品信息及商品图片信息
-
-//            循环删除图片
-            $db = db('cate');
-            foreach ($cateDel as $k => $v) {
-                $cates = $db->field('thumb')->find($v);
-                $thumbSrc = APP_BANNER_UPLODAS.'/'.$cates['thumb'];
-                if (file_exists($thumbSrc)) {
-                    @unlink($thumbSrc);
-                }
-                $db->delete($v);
+            $_goodsId = db('goods')->where('cate_id',$id)->select();
+            $goodsId = array();
+            foreach ($_goodsId as $k => $v) {
+                $goodsId = $v;
             }
-            $this->success('删除栏目成功');
+            if (!isset($goodsId['id'])) {
+    //            获取当前栏目和子栏目的id
+                $cateDel = model('cate')->getChildren($id);
+                $cateDel[] = intval($id);
+    //            删除这些栏目下的商品信息及商品图片信息
+
+    //            循环删除图片
+                $db = db('cate');
+                foreach ($cateDel as $k => $v) {
+                    $cates = $db->field('thumb')->find($v);
+                    $thumbSrc = APP_BANNER_UPLODAS.'/'.$cates['thumb'];
+                    if (file_exists($thumbSrc)) {
+                        @unlink($thumbSrc);
+                    }
+                    $del = $db->delete($v);
+                    if ($del) {
+                        $goods=model('goods');
+                        $goods::destroy(['cate_id'=>$v]);
+                    }
+                }
+                $this->success('删除栏目成功');
+            }else {
+                $this->error('请先删除商品,再删除栏目');
+            }
+
         }
     }
 }

@@ -5,7 +5,7 @@ use think\Controller;
 
 class Banner extends Controller
 {
-//    轮播图接口
+    //    轮播图接口
     public function getBanner()
     {
 //        $bannerLst = db('banner')->field('id, img_src, link_url')->where('status',1)->order('sort DESC')->limit(5)->select();

@@ -39,6 +39,25 @@ class Goods extends Model
                 db('goods_spe')->where(array('goods_id' => $goodsId))->delete();
             }
         });
+
+        self::afterDelete(function ($goods) {
+            $goodsId = $goods->id;
+            // 處理中間表
+            db('goods_spe')->where(array('goods_id'=>$goodsId))->delete();
+            //            商品相册删除
+            $photosArr = db('photos')->where(array('goods_id'=>$goodsId))->select();
+            if ($photosArr) {
+                foreach ($photosArr as $k => $v) {
+                    $photoSrc = 'photo'. DS . $v['img_src'];
+                    $imgSrc = APP_BANNER_UPLODAS. '/'. $photoSrc;
+                    if (file_exists($imgSrc)) {
+                        @unlink($imgSrc);
+                    }
+                }
+//                删除photos中的信息
+                db('photos')->where(array('goods_id'=>$goodsId))->delete();
+            }
+        });
     }
 
 //    多文件上传

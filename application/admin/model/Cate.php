@@ -6,11 +6,6 @@ use think\Model;
 class Cate extends Model
 {
 
-    public function getThumbAttr($value)
-    {
-        return config('queue.baseurl').$value;
-    }
-
 //    获取子栏目
     public function getChildren($id)
     {

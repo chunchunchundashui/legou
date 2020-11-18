@@ -153,22 +153,12 @@ class Goods extends Controller
     public function del()
     {
         if (request()->isAjax()) {
-            $goods = db('goods');
+            $goods = model('goods');
             $id = input('post.id');
             $goodsInfo = $goods->field('des_img, thumb')->find($id);
             $this->imgDel($goodsInfo['des_img']);   //  删除详情图
             $this->imgDel($goodsInfo['thumb']);        // 删除缩略图
-//            商品相册删除
-            $photosArr = db('photos')->where(array('goods_id'=>$id))->select();
-            if ($photosArr) {
-                foreach ($photosArr as $k => $v) {
-                    $photoSrc = 'photo'. DS . $v['img_src'];
-                    $this->imgDel($photoSrc);   //  删除商品相册
-                }
-//                删除photos中的信息
-                db('photos')->where(array('goods_id'=>$id))->delete();
-            }
-            $del = $goods->delete($id);
+            $del = $goods::destroy($id);
             if ($del) {
                 $this->success('删除成功');
             }else {

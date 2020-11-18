@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:67:"D:\phpStudy\WWW\legou\public/../application/admin\view\cate\add.htm";i:1605002815;s:59:"D:\phpStudy\WWW\legou\application\admin\view\common\top.htm";i:1604586869;s:60:"D:\phpStudy\WWW\legou\application\admin\view\common\left.htm";i:1604999857;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:67:"D:\phpStudy\WWW\legou\public/../application/admin\view\cate\add.htm";i:1605002815;s:59:"D:\phpStudy\WWW\legou\application\admin\view\common\top.htm";i:1604586869;s:60:"D:\phpStudy\WWW\legou\application\admin\view\common\left.htm";i:1605340289;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -171,6 +171,60 @@
           <a href="<?php echo url('admin/Cate/add'); ?>">
             <span class="menu-text">
                 栏目添加
+            </span>
+            <i class="menu-expand"></i>
+          </a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="#" class="menu-dropdown">
+        <i class="menu-icon fa fa-shopping-cart"></i>
+        <span class="menu-text">
+          商品管理
+        </span>
+        <i class="menu-expand"></i>
+      </a>
+      <ul class="submenu">
+        <li>
+          <a href="<?php echo url('admin/Goods/lst'); ?>">
+            <span class="menu-text">
+              商品列表
+            </span>
+            <i class="menu-expand"></i>
+          </a>
+        </li>
+        <li>
+          <a href="<?php echo url('admin/Goods/add'); ?>">
+            <span class="menu-text">
+                商品添加
+            </span>
+            <i class="menu-expand"></i>
+          </a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="#" class="menu-dropdown">
+        <i class="menu-icon fa fa-star"></i>
+        <span class="menu-text">
+          专题管理
+        </span>
+        <i class="menu-expand"></i>
+      </a>
+      <ul class="submenu">
+        <li>
+          <a href="<?php echo url('admin/Special/lst'); ?>">
+            <span class="menu-text">
+              专题列表
+            </span>
+            <i class="menu-expand"></i>
+          </a>
+        </li>
+        <li>
+          <a href="<?php echo url('admin/Special/add'); ?>">
+            <span class="menu-text">
+              专题添加
             </span>
             <i class="menu-expand"></i>
           </a>

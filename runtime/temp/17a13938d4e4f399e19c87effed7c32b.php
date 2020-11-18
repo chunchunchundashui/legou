@@ -1,6 +1,7 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:69:"D:\phpStudy\WWW\legou\public/../application/admin\view\goods\list.htm";i:1605196331;s:59:"D:\phpStudy\WWW\legou\application\admin\view\common\top.htm";i:1604586869;s:60:"D:\phpStudy\WWW\legou\application\admin\view\common\left.htm";i:1605340289;s:58:"D:\phpStudy\WWW\legou\application\admin\view\common\js.htm";i:1604588515;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:69:"D:\phpStudy\WWW\legou\public/../application/admin\view\goods\list.htm";i:1605590816;s:59:"D:\phpStudy\WWW\legou\application\admin\view\common\top.htm";i:1604586869;s:60:"D:\phpStudy\WWW\legou\application\admin\view\common\left.htm";i:1605340289;s:58:"D:\phpStudy\WWW\legou\application\admin\view\common\js.htm";i:1604588515;}*/ ?>
 <!DOCTYPE html>
 <html>
+<header HTTP_TOKEN="adfasdljkkald1a32df4654d"></header>
 <head>
   <meta charset="utf-8">
   <title>童老师ThinkPHP交流群：484519446</title>

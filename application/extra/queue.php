@@ -12,5 +12,6 @@
 return [
     'connector' => 'Sync',
 //    定义一个域名
-    'baseurl' => 'http://127.0.0.1/legou/public/static/uploads/'
+    'baseurl' => 'http://127.0.0.1/legou/public/static/uploads/',
+    'photosurl' => 'http://127.0.0.1/legou/public/static/uploads/photo/'
 ];
